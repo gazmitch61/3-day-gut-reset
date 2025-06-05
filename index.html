@@ -9,13 +9,9 @@
       margin: 0;
       font-family: Arial, sans-serif;
       background-color: #f4f6e9;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
       color: #3c4c3a;
       text-align: center;
+      padding: 2rem;
     }
 
     h1 {
@@ -29,23 +25,11 @@
       margin-bottom: 2rem;
     }
 
-    a.button-link {
-      text-decoration: none;
-    }
-
-    button {
-      background-color: #89a580;
-      color: white;
+    iframe {
+      width: 100%;
+      max-width: 640px;
+      height: 900px;
       border: none;
-      padding: 0.75rem 1.5rem;
-      font-size: 1rem;
-      border-radius: 6px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-    }
-
-    button:hover {
-      background-color: #7d986f;
     }
 
     .disclaimer {
@@ -59,9 +43,11 @@
   <h1>Reset Your Gut in Just 3 Days</h1>
   <p>A gentle, science-backed plan for people with colitis, IBS, and gut sensitivity.</p>
 
-  <a href="https://forms.gle/VWZrkHC4kPZfe8sq6" target="_blank" class="button-link">
-    <button>Send Me the Plan</button>
-  </a>
+  <!-- ✅ Embedded Google Form -->
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdjc8WRwmigfeu2q-sbtzdZI1t5r0JH4j5-_oNLxudAfwmWQA/viewform?embedded=true" 
+          width="100%" height="900" frameborder="0" marginheight="0" marginwidth="0">
+    Loading…
+  </iframe>
 
   <div class="disclaimer">No spam. Unsubscribe anytime.</div>
 </body>
